@@ -15,6 +15,7 @@ public class FrontController {
 		controllerMap.put("/user/create", UserCreateController.getInstance());
 		controllerMap.put("/user/login", LoginController.getInstance());
 		controllerMap.put("/user/logout", LogoutController.getInstance());
+		controllerMap.put("/user/list", UserListController.getInstance());
 		controllerMap.put("*", DefaultController.getInstance());
 	}
 
